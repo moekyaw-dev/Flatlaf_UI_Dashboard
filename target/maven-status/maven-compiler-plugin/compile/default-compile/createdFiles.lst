@@ -1,1 +1,5 @@
 com\faltlaf\main\Main.class
+com\flatlaf\panels\CustomersPanel.class
+com\flatlaf\panels\ProductsPanel.class
+com\flatlaf\panels\DashboardPanels.class
+com\flatlaf\panels\SalesPanel.class

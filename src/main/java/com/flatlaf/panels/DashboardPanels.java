@@ -1,0 +1,53 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
+ */
+package com.flatlaf.panels;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Font;
+import javax.swing.BorderFactory;
+import javax.swing.JLabel;
+
+/**
+ *
+ * @author MyPC
+ */
+public class DashboardPanels extends javax.swing.JPanel {
+
+    /**
+     * Creates new form DashboardPanels
+     */
+    public DashboardPanels() {
+        setLayout(new BorderLayout());
+        setBackground(new Color(18,18,18));
+        setBorder(BorderFactory.createEmptyBorder(30,30,30,30));
+        JLabel title = new JLabel("Dashboard Panel");
+        title.setForeground(Color.WHITE);
+        title.setFont(new Font("SansSerif", 20,Font.BOLD));
+        
+        add(title, BorderLayout.NORTH);
+        initComponents();
+    }
+
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+    }// </editor-fold>//GEN-END:initComponents
+
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // End of variables declaration//GEN-END:variables
+}
